@@ -1,23 +1,24 @@
 #!/usr/bin/env ruby
+require '../lib/utilities'
 
-puts '"variable" is a variable. Variables do not need to be provisioned with a keyword in Ruby.'
-puts 'They just cannot belong to another variable or method name.'
+comment '"variable" is a variable. Variables do not need to be provisioned with a keyword in Ruby.
+        They just cannot belong to another variable or method name.'
 
 variable = 'Hello World'
 
 puts variable
 
-puts '#puts is a method. Methods can be called w/ or w/o parethesis.'
+comment '#puts is a method. Methods can be called w/ or w/o parethesis.'
 
 puts(variable)
 
-puts 'Variables can be re-assigned'
+comment 'Variables can be re-assigned'
 
 variable = 'Jeff'
 
 puts variable
 
-puts 'Variables can hold many different types of variables.'
+comment 'Variables can hold many different types of variables.'
 
 variable = 'Hello String'
 
@@ -49,13 +50,13 @@ variable = false
 
 show(variable) # Comments can be on the smae line as code. I prefer to use parenthesis.
 
-puts 'Variables can be Objects as well. Do not worry about what an Object is yet.'
+comment 'Variables can be Objects as well. Do not worry about what an Object is yet.'
 
 variable = Array
 
 show(variable)
 
-puts 'A Varialbe can be nil. Nil means nothing.'
+comment 'A Varialbe can be nil. Nil means nothing.'
 
 variable = nil
 

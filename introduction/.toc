@@ -1,7 +1,7 @@
 Hello World
 Hello Math
 Hello Boolean
-Hello Arrays
 Hello Strings
+Hello Arrays
 Hello Loops
 Hello If
