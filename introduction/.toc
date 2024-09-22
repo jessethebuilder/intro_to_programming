@@ -1,0 +1,7 @@
+Hello World
+Hello Math
+Hello Boolean
+Hello Arrays
+Hello Strings
+Hello Loops
+Hello If
