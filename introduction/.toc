@@ -3,5 +3,7 @@ Hello Math
 Hello Boolean
 Hello Strings
 Hello Arrays
+Hello Hashes
 Hello Loops
 Hello If
+Other

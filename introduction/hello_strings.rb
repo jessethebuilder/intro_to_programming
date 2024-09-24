@@ -45,6 +45,3 @@ puts variable[0..2]
 comment 'In a Range, the last charcter is at index -1 (and the one before that, -2...)'
 
 puts variable[3..-1]
-
-comment 'Much more on indexes in the next module, Hello Arrays.'
-comment ''

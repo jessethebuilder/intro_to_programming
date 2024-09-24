@@ -58,45 +58,14 @@ array = %w|string_one string_two|
 
 puts array
 
-comment 'Hashes are another kind of Array organized by key, value.'
+comment 'Arrays can be turned into strings'
 
-hash = {a: 'Hello', b: 'World'}
+puts ['This', 'is', 'a', 'String from an Array'].join(' ')
 
-puts "#{hash[:a]} #{hash[:b]}"
+comment 'And Strings can be made into arrays'
 
-comment ':a is called a Symbol. A Symbol is like a String, but it never changes, and are
-often used as keys in Hashes'
+'Here is a String'.split(' ').each { |char| puts char }
 
-comment 'Hashes can be interated'
+comment 'Ruby Arrays have many useful methods, such as #sum to addup all of the values in an Array'
 
-hash.each do |key, value|
-  puts "#{key} => #{value}"
-end
-
-comment 'Items can be added to hashes by assignin a new key'
-
-hash[:c] = "It's me, Jeff"
-
-puts "#{hash[:a]} #{hash[:b]}, #{hash[:c]}"
-
-comment 'An unrecognized key returns nil'
-
-puts hash[:x].inspect
-
-comment 'We can examine the keys.'
-
-puts hash.keys
-puts hash.keys.class.name
-
-comment 'Or the values'
-
-puts hash.values
-puts hash.values.class.name
-
-comment 'Items can be deleted from a Hash. #delete returns the value at that key'
-
-puts hash.delete(:b)
-
-hash.each do |key, value|
-  puts "#{key} => #{value}"
-end
+puts [1, 2, 3, 4, 5929, 28.883].sum
